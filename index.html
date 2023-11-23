@@ -3,33 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sara</title>
-    <link
-      rel="shortcut icon"
-      href="https://img.icons8.com/?size=500&id=uZrQP6cYos2I&format=png"
-      type="image/x-icon"
-    />
+    <title>Sara & Siri</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="88019707.jpg" type="image/x-icon">
   </head>
-  <body style="display: grid; place-items: center">
-    <div style="display: flex; gap: 10px; align-items: center">
-      <img
-        src="https://img.icons8.com/?size=500&id=uZrQP6cYos2I&format=png"
-        alt="Wiki Bot"
-        style="height: 50px; width: 50px; border-radius: 50%"
-      />
-      <h1>Wiki Bot</h1>
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">MIMO</a>
+      <div class="header-right">
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./About.html">About</a>
+      </div>
     </div>
-    <p>
-      Hi there! I am Wiki Bot. I can help you to search anything on Wikipedia.
-      <br />Just click on the button below and ask me a question.
-    </p>
-    <p>Try asking</p>
-    <ul>
-      <li>What is your name</li>
-      <li>Who is Albert Einstein?</li>
-      <li>What is Google?</li>
-      <li>What is the date</li>
-    </ul>
+       <div class="search_field">
+           <select name="Account" id="">
+             Account
+             <option value="Hisense">My Account  </option>
+             <option value="Hisense">Order  </option>
+             <option value="Hisense">Saved Items  </option>
+           </select>
+           <select name="Account" id="">
+             
+             <option value="Hisense">Help Center  </option>
+             <option value="Hisense">Place Order  </option>
+             <option value="Hisense">Track Your Order  </option>
+             <option value="Hisense">Order Cancellation  </option>
+             <option value="Hisense">Track Your Order  </option>
+           </select>
+<div class="btn">Cart</div>
+<div class="content">
+  <img
+    src="88019709.jpg"
+    alt="Wiki Bot"
+    style="height: 50px; width: 50px; border-radius: 50%"
+  />
+  <h1>Wiki Bot</h1>
+</div>
+<div class="items">
+
+
+<p>
+  Hi there! I am Wiki Bot. I can help you to search anything on Wikipedia.
+  <br />Just click on the button below and ask me a question.
+</p>
+<p>Try asking</p>
+<ul>
+  <li>What is your name</li>
+  <li>Who is Albert Einstein?</li>
+  <li>What is Google?</li>
+  <li>What is the date</li>
+</ul>
+
     <button
       onclick="runChatBot()"
       style="
@@ -44,6 +69,7 @@
     >
       Click here to ask me a question
     </button>
+  </div>
     <script src="./index.js"></script>
   </body>
 </html>
